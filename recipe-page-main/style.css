@@ -79,14 +79,7 @@ body{
      margin-top: 2vh;
 }
 
-.recipeName{
-     font-family: young-serif;
-     line-height: 1em;
-    font-weight: 600;
-    margin:3vh 0;
-    font-size: clamp(1rem, 2rem ,4rem);
-    color: var(--Stone-900);
-}
+
  
 .detail{
      font-size: clamp(1rem, 1.05rem, 1.2rem);
