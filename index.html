@@ -3,14 +3,26 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
      <title>Hyper links</title>
 </head>
-<body>
-     <h1>Hyper links</h1>
-     <ul>
-         <li><a href="./recipe-page-main/index.html">Recipe Page challenge</a></li>
-         <li><a href="./article-preview-component-master/index.html">Article Preview Component challenge</a></li>
-         <li><a href="./four-card-feature-section-master/index.html">Four Card Feature Section challenge</a></li>
+<body class="flex flex-col 
+items-center 
+justify-center 
+min-h-screen 
+bg-gray-200">
+     <h1 class="text-4xl
+      font-bold 
+      text-sky-500 
+      hover:text-blue-600 
+      hover:underline 
+      hover:cursor-pointer
+       hover:font-bold">Hyper links</h1>
+       
+     <ul class="flex flex-col gap-4 items-center justify-center mt-10">
+         <li class="text-2xl font-bold text-sky-500 hover:text-blue-600 hover:underline hover:cursor-pointer hover:font-bold"><a href="./recipe-page-main/index.html">Recipe Page challenge</a></li>
+         <li class="text-2xl font-bold text-sky-500 hover:text-blue-600 hover:underline hover:cursor-pointer hover:font-bold"><a href="./article-preview-component-master/index.html">Article Preview Component challenge</a></li>
+         <li  class="text-2xl font-bold text-sky-500 hover:text-blue-600 hover:underline hover:cursor-pointer hover:font-bold"><a href="./four-card-feature-section-master/index.html">Four Card Feature Section challenge</a></li>
      </ul>
 </body>
 </html>
