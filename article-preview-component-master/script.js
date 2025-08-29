@@ -1,12 +1,13 @@
-let share = document.querySelector(".svg");
+let share = document.querySelectorAll(".svg");
 let firstDiv = document.querySelector(".firstDiv");
-share.addEventListener("click", () => {
+share.forEach((ele)=>{
+     ele.addEventListener("click", () => {
      let socialLink = document.querySelector(".socialLink");
-     if(socialLink.style.display === "none"){
+     if(socialLink.style.display === "none" && firstDiv.style.display === "flex"){
           socialLink.style.display = "flex";
            firstDiv.style.display = "none"; 
      }else{
           socialLink.style.display = "none";
-          firstDiv.querySelector(".firstDiv").style.display = "flex";
+          firstDiv.style.display = "flex";
      }
-});
+})});
